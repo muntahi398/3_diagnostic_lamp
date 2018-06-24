@@ -22,10 +22,10 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 
 add_executable(diag_int_pub src/int_pub1.cpp)
 target_link_libraries(diag_int_pub ${catkin_LIBRARIES})
-add_dependencies(talker diagnostic_light_generate_messages_cpp)
+#add_dependencies(talker diagnostic_light_generate_messages_cpp)
 
 add_executable(diag_int_sub1 src/int_sub1.cpp)
 target_link_libraries(diag_int_sub1 ${catkin_LIBRARIES})
-add_dependencies(listener diagnostic_light_generate_messages_cpp)
+#add_dependencies(listener diagnostic_light_generate_messages_cpp)
 
 # %EndTag(FULLTEXT)%
