@@ -8,18 +8,18 @@
 #include <iostream>
 
 float pos_x, pos_y,pos_z, pos_x1;
-void commandpos(const geometry_msgs::PoseStampedConstPtr& msg)
-{
+//void commandpos(const geometry_msgs::PoseStampedConstPtr& msg)
+//{
 
-pos_x= msg->pose.position.x ; //    ->position->x;
-pos_x1= pos_x;
-pos_y= msg->pose.position.y;
-pos_z= (msg->pose.position.z)*10;
+//pos_x= msg->pose.position.x ; //    ->position->x;
+//pos_x1= pos_x;
+//pos_y= msg->pose.position.y;
+//pos_z= (msg->pose.position.z)*10;
 
 //ros::INFO("hi");
-std::cout<<pos_x<<"	"<<pos_y<<"	"<<pos_z<<"	"<<std::endl;
+//std::cout<<pos_x<<"	"<<pos_y<<"	"<<pos_z<<"	"<<std::endl;
  
-}
+//}
 
 int main(int argc, char **argv)
 
