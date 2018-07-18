@@ -1,7 +1,7 @@
 # DIFFERENT APPROACH FOR PUBlISH SUBSCRIBE
 for cpu efficiency,  int_pub_3.cpp and int_pub_4.cpp used using all in classs, but pub_4 is better as the class itself callbacks itself.
 
-int_sub_3.cpp used with all with class.
+int_sub_2.cpp used with all with class.
 
 
 # 3_diagnostic_lamp
